@@ -27,4 +27,12 @@
   .light-toggle.react-toggle--checked:hover .react-toggle-track {
     @apply bg-yellow-500;
   }
+
+  .active {
+    @apply text-blue-400;
+  }
+
+  .inactive {
+    @apply hover:text-blue-400 transition duration-100;
+  }
 }
