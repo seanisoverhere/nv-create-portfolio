@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    /* 
+      You can set your background and text color of your website here
+      For both light mode and dark mode 
+    */
+    @apply bg-amber-50 text-gray-900 dark:bg-black dark:text-gray-100;
+    @apply transition duration-300;
+    @apply min-h-screen;
+  }
+  /* 
+    You can set the color of highlighted texts here
+  */
+  ::selection {
+    @apply text-white bg-indigo-500;
+  }
+}
+
+@layer components {
+  .light-toggle.react-toggle--checked .react-toggle-track {
+    @apply bg-yellow-500;
+  }
+  .light-toggle.react-toggle--checked:hover .react-toggle-track {
+    @apply bg-yellow-500;
+  }
+}
