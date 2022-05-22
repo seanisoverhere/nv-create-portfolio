@@ -10,8 +10,8 @@ const About = () => {
       </div>
       <div className="text-4xl font-semibold">About Me</div>
       <div className="py-8 text-lg">
-        Hi I'm Sean, I'm a final year student from Singapore Manangement
-        University majoring in Information Systems.
+        {`Hi I'm Sean, I'm a final year student from Singapore Manangement
+        University majoring in Information Systems.`}
       </div>
       <div>
         Here you write more about your experience. Include things such as:
