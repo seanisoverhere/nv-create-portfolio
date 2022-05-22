@@ -5,12 +5,13 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="mx-auto px-4 sm:px-6 lg:px-8">
+    <nav className="px-8 lg:px-12 pb-6">
       <div className="flex items-center justify-between h-24">
         <div className="w-full justify-between flex items-center">
           <div className="flex-shrink-0">
             <Link href="/">
               <div className="tracking-wider font-semibold text-xl cursor-pointer">
+                {/* Your Name */}
                 seanisoverhere
               </div>
             </Link>

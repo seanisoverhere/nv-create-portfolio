@@ -8,8 +8,8 @@
       You can set your background and text color of your website here
       For both light mode and dark mode 
     */
-    @apply bg-amber-50 text-gray-900 dark:bg-black dark:text-gray-100;
-    @apply transition duration-300;
+    @apply bg-amber-50 text-gray-700 dark:bg-black dark:text-gray-100;
+    @apply transition duration-200;
     @apply min-h-screen;
   }
   /* 
@@ -33,6 +33,6 @@
   }
 
   .inactive {
-    @apply hover:text-blue-400 transition duration-100;
+    @apply hover:text-blue-400 transition duration-200;
   }
 }

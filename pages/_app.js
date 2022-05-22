@@ -14,7 +14,9 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <Component {...pageProps} />
+      <div className="px-8 lg:px-12">
+        <Component {...pageProps} />
+      </div>
     </ThemeProvider>
   );
 }
