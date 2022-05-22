@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { ThemeProvider } from "next-themes";
+import { AnimatePresence } from "framer-motion";
 import Navbar from "../components/Navbar";
 import "../styles/globals.css";
 
@@ -15,7 +16,13 @@ function MyApp({ Component, pageProps }) {
       </Head>
       <Navbar />
       <div className="px-8 lg:px-12">
-        <Component {...pageProps} />
+        <AnimatePresence
+          exitBeforeEnter
+          initial={false}
+          onExitComplete={() => window.scrollTo(0, 0)}
+        >
+          <Component {...pageProps} />
+        </AnimatePresence>
       </div>
     </ThemeProvider>
   );

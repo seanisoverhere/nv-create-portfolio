@@ -1,8 +1,9 @@
 import React from "react";
+import Layout from "../components/Layout";
 
 const Home = () => {
   return (
-    <div className="container">
+    <Layout>
       <div className="flex items-center">
         <div className="w-1/2 lg:block hidden">
           {/* Hero image here */}
@@ -33,7 +34,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </div>
+    </Layout>
   );
 };
 
