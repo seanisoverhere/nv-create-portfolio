@@ -12,16 +12,13 @@ const Navbar = () => {
             <Link href="/">
               <div className="tracking-wider font-semibold text-xl cursor-pointer">
                 {/* Your Name */}
-                seanisoverhere
               </div>
             </Link>
           </div>
           <div className="ml-10 flex items-end space-x-8 text-sm">
             {/* Create the links to your pages here */}
-            <NavLink href="/about">About</NavLink>
-            <NavLink href="/work">Work</NavLink>
             {/* End of Navbar */}
-            <ThemeToggle />
+            {/* <ThemeToggle /> */}
           </div>
         </div>
       </div>

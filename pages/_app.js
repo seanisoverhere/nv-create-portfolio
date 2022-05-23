@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
         <title>My Portfolio Page</title>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta name="description" content="My Portfolio Page" />
+        {/* Description meta tag here */}
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
