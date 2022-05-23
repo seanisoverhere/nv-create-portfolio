@@ -7,6 +7,7 @@ const Work = () => {
       <div className="text-4xl text-center font-semibold pb-24">My Work</div>
       {/* Grid layout to set your projects */}
       <div className="">
+        {/* Start */}
         <div>
           <a
             href="https://heartcode.scis.smu.edu.sg/"
@@ -24,6 +25,7 @@ const Work = () => {
           </p>
           <p>Sample Description of Project</p>
         </div>
+        {/* End */}
       </div>
     </Layout>
   );
