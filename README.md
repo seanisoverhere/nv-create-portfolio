@@ -2,7 +2,7 @@
 ## Getting Started
 
 First, ensure that you have the following tools installed:
-- Visual Studios Code (Code Editor) https://code.visualstudio.com/download
+- Visual Studios Code (Code Editor) https://code.visualstudio.com/download (or any other IDE that you prefer)
 - NodeJS (https://nodejs.org/en/)
 
 Ensure that you have the following accounts created as well:
