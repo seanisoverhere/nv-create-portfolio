@@ -18,7 +18,7 @@ const Navbar = () => {
           <div className="ml-10 flex items-end space-x-8 text-sm">
             {/* Create the links to your pages here */}
             {/* End of Navbar */}
-            {/* <ThemeToggle /> */}
+            <ThemeToggle />
           </div>
         </div>
       </div>
